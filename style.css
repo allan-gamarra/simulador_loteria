@@ -1,0 +1,54 @@
+.container{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+}
+
+.entradas{
+  flex-direction: column;
+}
+
+input{
+  max-width: 2em;
+  font-size: 3em;
+}
+
+h1{
+  font-size: 5em;
+  font-family: Tahoma;
+  color: gray;
+  font-style: italic;
+}
+
+button{
+  font-family: Tahoma;
+  font-weight: bold;
+  font-size: 3em;
+  background-color: gray;
+  border: 0px;
+  color: white;
+  elevation: 20px;
+}
+
+#NumSort{
+  color: white;
+  list-style: none;
+  font-size: 3em;
+  padding: 0px;
+  margin: 0px;
+}
+
+#numSort li{
+  display: inline;
+}
+
+p{
+  font-weight: bolder;
+  font-size: 2em;
+  color: gray;
+}
+
+body{
+  background-image: url('wallpaper.jpg');
+}
